@@ -1,11 +1,65 @@
-<html>
+<html lang="id">
 <head>
-    <title>Contoh Eksternal CSS</title>
-    <link rel="stylesheet" type="text/css" href="style-ku.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Bola</title>
+  <style>
+body {
+      margin: 0; /* Hilangkan margin default */
+      font-family: Arial, sans-serif; /* Gunakan font Arial */
+      background: #0b1020; /* Warna latar belakang gelap */
+      color: #f1f1f1; /* Warna teks utama putih terang */
+      text-align: center; /* Semua teks rata tengah */
+    }
+    header {
+      background: #2de085; /* Header warna hijau cerah */
+      color: #0b1020; /* Teks header warna gelap */
+      padding: 15px; /* Ruang dalam header */
+      font-size: 24px; /* Ukuran teks besar */
+      font-weight: bold; /* Teks tebal */
+    }
+    main {
+      padding: 30px; /* Jarak dalam konten utama */
+    }
+    main h1 {
+      font-size: 32px; /* Judul utama lebih besar */
+      margin-bottom: 15px; /* Jarak bawah dari judul */
+    }
+    main p {
+      color: #cfd6e5; /* Warna paragraf abu-abu terang */
+      max-width: 600px; /* Lebar maksimal paragraf */
+      margin: 0 auto 20px; /* Tengah + jarak bawah */
+    }
+    img {
+      width: 90%; /* Gambar menyesuaikan layar */
+      max-width: 700px; /* Lebar maksimal gambar */
+      border-radius: 15px; /* Sudut gambar melengkung */
+      box-shadow: 0 8px 20px rgba(0,0,0,0.6); /* Efek bayangan */
+    }
+    footer {
+      margin-top: 30px; /* Jarak atas footer */
+      padding: 10px; /* Ruang dalam footer */
+      font-size: 14px; /* Ukuran teks kecil */
+      color: #aaa; /* Warna teks abu-abu */
+      border-top: 1px solid #2de085; /* Garis atas hijau */
+    }
+  </style>
 </head>
-
 <body>
-    <h2>Ini judul artikel</h2>
-    <p>Ini adalah paragraf yang memuat isi artikel. Paragraf ini hanya untuk percobaan saja. Percobaan untuk mendemokan <i>internal css</i>. Seperti namanya, <i>inline CSS</i> adalah kode CSS yang ditulis langsung dalam file HTML.</p>
+  <header>
+    Jadi Kiper Itu Asik!
+  </header>
+
+  <main>
+    <h1>Sepak Bola itu Menyenangkan</h1>
+    <p>Tapi pernah gak sih pas main sepak bola team kalian saling tunjuk buat jadi kiper?,itulah awal mula saya tertarik jadi kiper,saya merasa jadi kiper itu asik dan yang geraknya paling dikit (jadi enak hehehe bisa nyantai di bawah gawang),rasanya juga sangat menyenangkan jika bisa menepis bola dari tim lawan</p>
+    <p>dan foto di bawah ini pas saya ikut lomba minisoccer witan</p>
+
+    <img src="alip.png">
+  </main>
+
+  <footer>
+    © Witan MiniSoccer
+  </footer>
 </body>
 </html>
